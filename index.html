@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Blocks</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+      <link rel="icon" type="image/x-icon" href="/images/qbc png.png">
+
+    <style>
+        :root {
+            --color-primary-text: #e2e8f0; /* Default light text */
+            --color-secondary-text: #32002c; /* Slightly darker light text for description/overview */
+            --color-heading: #2b0037;    /* Purple for main headings */
+            --color-footer-text: #38003a; /* Grayish for footer */
+        }
+
+        body {
+           
+            font-family: 'Inter', sans-serif;
+            /* Dark pink to dark purple gradient background */
+            background: linear-gradient(to bottom right, #ffffff, #ffffff); /* Dark pink to dark purple */
+            color: var(--color-primary-text); /* Default text color for body */
+        }
+
+        /* Specific text elements */
+        h1 {
+            color: var(--color-heading);
+        }
+        .description-text { /* Custom class for description paragraph */
+            color: var(--color-secondary-text);
+        }
+        .italic-tagline { /* Custom class for italic tagline */
+            color: var(--color-secondary-text);
+        }
+        /* No longer needed: overview-heading, overview-list-text as that section was removed */
+        .footer-text { /* Custom class for footer text */
+            color: var(--color-footer-text);
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen pt-12 pb-4 px-4 w-full max-w-md mx-auto">
+    <div class="text-center">
+        <div class="mb-8">
+            <img src="/images/qbc png.png" alt="Quantum Blocks Logo" class="w-64 h-64 rounded-full mx-auto mb-4">
+            <h1 class="text-3xl md:text-4xl font-bold">Quantum Blocks</h1>
+            <p class="text-lg italic-tagline">Stride Into the Future.</p>
+        </div>
+
+  
+
+        <div class="space-y-4">
+            <a target="_blank" href="https://quantumblocks.io" class="flex items-center justify-center w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1 group relative overflow-hidden">
+                <i class="fas fa-globe mr-3"></i> Official Website
+                <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+            </a>
+            <a target="_blank" href="https://quantumblocks.gitbook.io/quantum-blocks-whitepaper" class="flex items-center justify-center w-full bg-indigo-700 hover:bg-indigo-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1 group relative overflow-hidden">
+                <i class="fas fa-file-alt mr-3"></i> Whitepaper (Deep Dive)
+                <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+            </a>
+            <a target="_blank" href="#" class="flex items-center justify-center w-full bg-fuchsia-600 hover:bg-fuchsia-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1 group relative overflow-hidden">
+                <i class="fab fa-telegram-plane mr-3"></i> Join Our Community on Telegram
+                <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+            </a>
+
+            <a target="_blank" href="https://www.instagram.com/quantum_blocks/" class="flex items-center justify-center w-full bg-purple-900 hover:bg-purple-800 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1 group relative overflow-hidden">
+                <i class="fab fa-instagram mr-3"></i> Follow Us on Instagram
+                <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+            </a>
+
+            <a target="_blank" href="https://www.facebook.com/quantum.blockschain/" class="flex items-center justify-center w-full bg-fuchsia-800 hover:bg-fuchsia-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1 group relative overflow-hidden">
+                <i class="fab fa-facebook mr-3"></i> Follow Us on Facebook
+                <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+            </a>
+
+            <a target="_blank" href="https://x.com/quantum_blocks" class="flex items-center justify-center w-full bg-violet-500 hover:bg-violet-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1 group relative overflow-hidden">
+                <i class="fab fa-twitter mr-3"></i> Follow Us on X (Twitter)
+                <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+            </a>
+            <a target="_blank" href="https://discord.gg/VtBhdz8S" class="flex items-center justify-center w-full bg-purple-700 hover:bg-purple-800 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1 group relative overflow-hidden">
+                <i class="fab fa-discord mr-3"></i> Connect on Discord
+                <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+            </a>
+
+           
+
+          <a target="_blank" href="https://medium.com/@quantum_blocks" class="flex items-center justify-center w-full bg-purple-500 hover:bg-purple-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1 group relative overflow-hidden">
+                <i class="fab fa-medium-m mr-3"></i> Learn About Quantum Blocks
+                <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+            </a>
+
+            <!--<a href="#" class="flex items-center justify-center w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1 group relative overflow-hidden">
+                <i class="fas fa-map mr-3"></i> Explore Our Roadmap
+                <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+
+            </a>
+            <a target="_blank" href="#" class="flex items-center justify-center w-full bg-fuchsia-500 hover:bg-fuchsia-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1 group relative overflow-hidden">
+                <i class="fas fa-mobile-alt mr-3"></i> Download the Quantum Blocks App (Coming Soon)
+                <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+            </a>
+ <a target="_blank" href="#" class="flex items-center justify-center w-full bg-purple-500 hover:bg-purple-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1 group relative overflow-hidden">
+                <i class="fas fa-coins mr-3"></i> Learn About $QBCX (Our Native Currency)
+                <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+            </a>
+
+            <a target="_blank" href="#" class="flex items-center justify-center w-full bg-violet-700 hover:bg-violet-800 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1 group relative overflow-hidden">
+                <i class="fas fa-link mr-3"></i> Quantum Blocks Chain Explorer (Coming Soon)
+                <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+            </a>-->
+        </div>
+
+        <div class="mt-8 footer-text font-bold text-xs">
+            <p>Copyright © 2025 Quantum Blocks</p>
+        </div>
+    </div>
+</body>
+</html>
